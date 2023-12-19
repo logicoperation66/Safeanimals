@@ -1,0 +1,6 @@
+- Czyzczenie danych wieku psa/kota
+- Mechanimz do obliczania daty urodzenia z wieku.
+- Zastosowanie obiektowej struktury kodu
+- Dodanie do repozytorium githuba
+- Dodanie autoatycznego pobierania csv z google sheet
+-
