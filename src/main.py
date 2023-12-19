@@ -17,7 +17,7 @@ url = 'https://www.safe-animal.eu/pl/dodaj-zwierze/Animals/add'
 
 if __name__ == "__main__":
     #Open csv with bunch of data to upload
-    with open("./BAZA DANYCH SCHRONISKO - BAZA DANYCH.csv", 'r', encoding="UTF-8") as data:
+    with open("csv_files/BAZA DANYCH SCHRONISKO - BAZA DANYCH.csv", 'r', encoding="UTF-8") as data:
         reader = csv.reader(data)
         SS = f"{datetime.datetime.now()}"
         repired_SS = SS.replace(".", "-")
